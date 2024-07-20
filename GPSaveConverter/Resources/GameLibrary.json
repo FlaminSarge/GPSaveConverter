@@ -390,6 +390,32 @@
           ]
         }
       ]
+    },
+    {
+      "Name": "Back 4 Blood",
+      "PackageName": "WarnerBros.Interactive.e172091a-6630-4ff3-959f-830_ktmk1xygcecda",
+      "TargetProfileTypes": [ "Steam" ],
+      "BaseNonXboxSaveLocation": "%LOCALAPPDATA%\\Back4Blood\\Steam",
+      "FileTranslations": [
+        {
+          "NonXboxFilename": "Saved\\Config\\WindowsNoEditor\\${FileName}.ini",
+          "XboxFileID": "Data",
+          "ContainerName1": "${FileName}ini",
+          "ContainerName2": "${FileName}ini",
+          "NamedRegexGroups": [
+            "(?<FileName>[\\w]+)"
+          ]
+        },
+        {
+          "NonXboxFilename": "Saved\\SaveGames\\${FileName}.sav",
+          "XboxFileID": "Data",
+          "ContainerName1": "${FileName}",
+          "ContainerName2": "${FileName}",
+          "NamedRegexGroups": [
+            "(?<FileName>[\\w]+)"
+          ]
+        }
+      ]
     }
   ]
 }
